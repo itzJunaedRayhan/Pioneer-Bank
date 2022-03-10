@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    background: url('../images/1374076.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: tomato;
+}
+#login-area h1{
+    color: #fff;
+    margin-top: 30px;
+}
+.submit-area{
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #3e3ec7;
+}
+#transaction-area{
+    max-width: 800px;
+    margin: 120px auto;
+    display: none;
+}
+.status{
+    margin: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: tomato;
+}
+
+
+@media only screen and (max-width: 730px) {
+    #transaction-area {
+        margin: 15px auto;
+    }
+
+    .submit-area {
+        background-color: #fff;
+        max-width: 600px;
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #3e3ec7;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .status{
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .status h5{
+        font-size: 14px;
+    }
+    .status h2{
+        text-align: center;
+        font-size: 16px;
+    }
+    .col-4{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .submit-area h4{
+        font-size: 14px;
+    }
+}
